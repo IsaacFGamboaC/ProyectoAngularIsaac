@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="card text-left" style="width: 20rem;">
+        <div class="card-body">
+            <article _ngcontent-cbk-c4="">
+                <h1 _ngcontent-cbk-c4=""> Proyecto </h1>
+                <h3 _ngcontent-cbk-c4="">Isaac Gamboa Campos</h3>
+
+
+
+                <div *ngIf="element == true">
+                    <div _ngcontent-cbk-c4=""><img _ngcontent-cbk-c4=""
+                            src="https://i.pinimg.com/564x/de/f6/7b/def67b0549bfba9d1c320f9325582280.jpg" alt="">
+                        <h5 _ngcontent-cbk-c4="">Residencia: Perez Zeledón</h5>
+                        <h4 _ngcontent-cbk-c4="">Tecnologias Usadas:</h4>
+                        <li _ngcontent-cbk-c4="">Angular</li>
+                        <li _ngcontent-cbk-c4="">Typescript</li>
+                        <li _ngcontent-cbk-c4="">Boostrap</li>
+                        <h6 _ngcontent-cbk-c4="">Llamadas API, Directivas, llamadas http, servicios, js, ts, rutas Git</h6  >
+                        <h5 _ngcontent-cbk-c4="">Contacto : <a _ngcontent-cbk-c4=""
+                                href="michi@gmail.com">isaacgamboacampos@gmail.com</a></h5>
+                    </div>
+                </div>
+
+                <div class="d-grid gap-2 d-md-block">
+                    <button class="button-2" *ngIf="element == false" (click)="showData()">Leer
+                        más</button>
+                    <button class="button-2" *ngIf="element == true" (click)="hideData()">Leer
+                        menos</button>
+                </div>
+
+            </article>
+        </div>
+    </div>
+</div>
